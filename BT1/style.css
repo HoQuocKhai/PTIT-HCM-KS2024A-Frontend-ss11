@@ -1,0 +1,79 @@
+header{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    padding-bottom: 30px;
+    background-color: red;
+    color: #ffffff;
+    width: 100%;
+}
+.body{
+    width: 100%;
+    display: flex;
+}
+p{
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px 10px 300px 10px;
+    margin: 10px;
+    text-align: center;
+    width: 96%;
+}
+.Sidebar1{
+    margin: 10px 10px 10px 0;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px 10px 300px 10px;
+    text-align: center;
+    width: 60%;
+}
+.Sidebar2{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: white;
+    padding: 0px 10px 300px 10px;
+    text-align: center;
+    width: 60%;
+}
+footer{
+    width: 101%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    padding-bottom: 30px;
+    background-color: blue;
+    color: white;
+}
+@media (max-width: 1024px) {
+    .body {
+        display: block;
+    }
+    p{
+        background-color: yellow(0, 0, 0);
+        border-radius: 10px;
+        padding: 10px 10px 100px 0px;
+        margin: 10px 10px 10px 0;
+        text-align: center;
+        width: 99%;
+    }
+    .Sidebar1{
+        margin: 10px 10px 10px 0;
+        border-radius: 10px;
+        background-color: green;
+        padding: 0px 10px 10px 10px;
+        text-align: center;
+        width: 97%;
+    }
+    .Sidebar2{
+        margin: 0px 10px 10px 0;
+        border-radius: 10px;
+        background-color: palevioletred;
+        padding: 0px 10px 10px 10px;
+        text-align: center;
+        width: 97%;
+    }
+}
